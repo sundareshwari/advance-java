@@ -1,0 +1,64 @@
+webserver - will handle the request and responsed
+
+provides the runtime envi
+web container
+
+IIS - .NET 
+
+JAVA web servers
+APACHE TOMCAT
+GLASSFISH
+WEBLOGIC
+WEBSPEAR - IBM Rational application dev
+
+php
+xamp
+wamp
+
+
+
+Servlet - java file that extends HttpServlet
+
+doGet(req, res)
+doPost(req, res)
+
+Req - contains all details about he previous page
+(or) the page that raised the request
+
+Res - contains all details to the next page
+(or) the page that will be shown to the user
+
+http://localhost:8080/Ex2/Servlet1?uname=NIIT+MADURAI
+
+URL Parameters are visible in doget method
+
+in dopost all request parameters are passed
+as hidden objects 
+
+
+class counter  
+
+
+MVC - MODEL VIEW CONTROLLER
+
+If a java file has code that only display's and output is called view
+if a java file has business logic/complex code/data manipulation
+then its called a controller
+
+if a java code that has coding related to database operation
+then its called model
+
+
+url patterns - you give your own file extensions to group
+your servlets
+
+eg:  ListEmployees.view
+	ListProducts.view
+
+addEmployee.do // do is a file extension for controller
+
+saveEmployee.model
+
+
+
+	
